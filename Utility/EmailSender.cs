@@ -11,7 +11,7 @@ namespace Portfolio.Utility
     {
         public EmailSender(IConfiguration config)
         {
-            SendGridSecret = config.GetValue<string>("SendGrid: SecretKey");
+            SendGridSecret = config.GetValue<string>("SendGrid:SecretKey");
         }
 
         private string SendGridSecret { get; set; }
