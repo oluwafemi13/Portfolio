@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Portfolio.Pages
 {
-    public class ContactModel : PageModel
+    public class DetailsModel : PageModel
     {
         public void OnGet()
         {
